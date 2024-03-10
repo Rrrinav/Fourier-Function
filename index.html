@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourier Series Animation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Enter number of sub functions</h3>
+    <input type="number" id="input_number" value="5">
+    <div id="description">
+        <p>The animation you see is created using Fourier series, a mathematical concept that decomposes periodic functions into a sum of sinusoidal functions. In this particular animation, we're visualizing the Fourier series by representing complex periodic functions as a combination of simpler sinusoidal functions. When you enter a number in the input field, it determines the number of terms used in the Fourier series. Each term represents a circle whose radius and angular velocity are determined by the harmonic frequency of that term. As the animation progresses, these circles move along their respective paths, tracing out a complex waveform. The animation demonstrates how complex periodic functions can be approximated by simpler sinusoidal functions, with more terms resulting in a closer approximation. This principle is fundamental to many areas of science and engineering, including signal processing, image compression, and audio synthesis. By adjusting the number of terms in the Fourier series, you can observe how the accuracy of the approximation changes and gain insight into the relationship between complex waveforms and their constituent sinusoidal components.</p>
+       
+       <br>
+        <b>Here we are finding Fourier Series of a Rectangular wave.</b>
+        <p>You can see how increasing number approximattes it to a Rectangular wave</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
